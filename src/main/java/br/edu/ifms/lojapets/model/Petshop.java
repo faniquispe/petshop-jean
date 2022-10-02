@@ -32,12 +32,11 @@ public class Petshop implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Petshop(Integer id, String nome, String cnpj, List<Cliente> clientes) {
+	public Petshop(Integer id, String nome, String cnpj) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.cnpj = cnpj;
-		this.clientes = clientes;
 	}
 
 	public Integer getId() {
@@ -64,14 +63,6 @@ public class Petshop implements Serializable{
 		this.cnpj = cnpj;
 	}
 
-	public List<Cliente> getClientes() {
-		return clientes;
-	}
-
-	public void setClientes(List<Cliente> clientes) {
-		this.clientes = clientes;
-	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -96,5 +87,7 @@ public class Petshop implements Serializable{
 			return false;
 		return true;
 	}
+
+	
 	
 }
