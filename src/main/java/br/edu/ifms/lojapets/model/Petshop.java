@@ -32,7 +32,7 @@ public class Petshop implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
-	public Petshop(Integer id, String nome, String cnpj, List<Cliente> clientes) {
+	public Petshop(Integer id, String nome, String cnpj) {
 		super();
 		this.id = id;
 		this.nome = nome;
@@ -62,14 +62,6 @@ public class Petshop implements Serializable{
 
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
-	}
-
-	public List<Cliente> getClientes() {
-		return clientes;
-	}
-
-	public void setClientes(List<Cliente> clientes) {
-		this.clientes = clientes;
 	}
 
 	@Override
