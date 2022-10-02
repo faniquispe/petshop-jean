@@ -37,7 +37,6 @@ public class Petshop implements Serializable{
 		this.id = id;
 		this.nome = nome;
 		this.cnpj = cnpj;
-		this.clientes = clientes;
 	}
 
 	public Integer getId() {
