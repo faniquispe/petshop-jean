@@ -38,6 +38,15 @@ public class Petshop implements Serializable{
 		this.nome = nome;
 		this.cnpj = cnpj;
 	}
+	
+
+	public List<Cliente> getClientes() {
+		return clientes;
+	}
+
+	public void setClientes(List<Cliente> clientes) {
+		this.clientes = clientes;
+	}
 
 	public Integer getId() {
 		return id;
