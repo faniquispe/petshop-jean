@@ -54,8 +54,7 @@ public class ServicoService {
 	}
 	
 	public Servico fromDto(ServicoDto objDto) {
-		return new Servico(objDto.getId(),objDto.getDescricao(), objDto.getDataServico(), objDto.getValor(), 
-				objDto.getPet(), objDto.getCliente());
+		return new Servico(objDto.getId(),objDto.getDescricao(), objDto.getDataServico(), objDto.getValor(), null);
 	}
 	
 	private void updateData(Servico newObj, Servico obj) {
@@ -63,7 +62,7 @@ public class ServicoService {
 		newObj.setDataServico(obj.getDataServico());
 		newObj.setValor(obj.getValor());
 		newObj.setPet(obj.getPet());
-		newObj.setCliente(obj.getCliente());
+		
 		
 	}
 }

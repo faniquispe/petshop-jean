@@ -31,23 +31,20 @@ public class Servico implements Serializable{
 	@JoinColumn(name = "pet_id")
 	private Pet pet;
 	
-	@JsonIgnore
-	@ManyToOne
-	@JoinColumn(name = "cliente_id")
-	private Cliente cliente;
+
 	
 	public Servico() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Servico(Integer id, String descricao, String dataServico, float valor, Pet pet, Cliente cliente) {
+	public Servico(Integer id, String descricao, String dataServico, float valor, Pet pet) {
 		super();
 		this.id = id;
 		this.descricao = descricao;
 		this.dataServico = dataServico;
 		this.valor = valor;
 		this.pet = pet;
-		this.cliente = cliente;
+		
 	}
 
 	public Integer getId() {
@@ -90,13 +87,7 @@ public class Servico implements Serializable{
 		this.pet = pet;
 	}
 
-	public Cliente getCliente() {
-		return cliente;
-	}
 
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
-	}
 
 	@Override
 	public int hashCode() {

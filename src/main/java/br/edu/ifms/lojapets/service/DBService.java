@@ -64,19 +64,19 @@ public class DBService {
 		Pet pet13 = new Pet(null, "Cinderela", "Persa", "20/05/2019", "Gato", "Femea", cli8);//
 		
 		
-		Servico serv1 = new Servico(null, "Banho e Tosa", "20/07/2022", 160.0f, pet1, cli1); 
-		Servico serv2 = new Servico(null, "Banho e Tosa Máquina", "15/06/2022", 151.0f, pet3, cli5); 
-		Servico serv3 = new Servico(null, "Banho e Hidratação", "10/05/2022", 121.0f, pet11, cli8);  
-		Servico serv4 = new Servico(null, "Banho e Tosa Tesoura", "05/05/2022", 170.0f, pet8, cli7 ); 
-		Servico serv5 = new Servico(null, "Banho e Hidratação", "11/04/2022", 121.0f, pet12, cli4);  
-		Servico serv6 = new Servico(null, "Banho e Corte de Unhas", "06/04/2022", 151.0f, pet2, cli5); 
-		Servico serv7 = new Servico(null, "Banho e Tosa Tesoura", "01/04/2022", 170.0f, pet13, cli8); 
-		Servico serv8 = new Servico(null, "Banho", "29/03/2022", 110.0f, pet5, cli1);
-		Servico serv9 = new Servico(null, "Banho e Tosa Tesoura", "26/03/2022", 170.0f, pet7, cli10); 
-		Servico serv10 = new Servico(null, "Banho e Hidratação", "25/03/2022", 121.0f, pet10, cli9); 
-		Servico serv11 = new Servico(null, "Banho e Hidratação", "23/03/2022", 121.0f, pet9, cli3); 
-		Servico serv12 = new Servico(null, "Banho e Hidratação", "21/03/2022", 121.0f, pet4, cli6); 
-		Servico serv13 = new Servico(null, "Banho e Corte de Unhas", "20/03/2022", 151.0f, pet6, cli4);
+		Servico serv1 = new Servico(null, "Banho e Tosa", "20/07/2022", 160.0f, pet1); 
+		Servico serv2 = new Servico(null, "Banho e Tosa Máquina", "15/06/2022", 151.0f, pet3); 
+		Servico serv3 = new Servico(null, "Banho e Hidratação", "10/05/2022", 121.0f, pet11);  
+		Servico serv4 = new Servico(null, "Banho e Tosa Tesoura", "05/05/2022", 170.0f, pet8); 
+		Servico serv5 = new Servico(null, "Banho e Hidratação", "11/04/2022", 121.0f, pet12);  
+		Servico serv6 = new Servico(null, "Banho e Corte de Unhas", "06/04/2022", 151.0f, pet2); 
+		Servico serv7 = new Servico(null, "Banho e Tosa Tesoura", "01/04/2022", 170.0f, pet13); 
+		Servico serv8 = new Servico(null, "Banho", "29/03/2022", 110.0f, pet5);
+		Servico serv9 = new Servico(null, "Banho e Tosa Tesoura", "26/03/2022", 170.0f, pet7); 
+		Servico serv10 = new Servico(null, "Banho e Hidratação", "25/03/2022", 121.0f, pet10); 
+		Servico serv11 = new Servico(null, "Banho e Hidratação", "23/03/2022", 121.0f, pet9); 
+		Servico serv12 = new Servico(null, "Banho e Hidratação", "21/03/2022", 121.0f, pet4); 
+		Servico serv13 = new Servico(null, "Banho e Corte de Unhas", "20/03/2022", 151.0f, pet6);
 
 		
 		//lista
